@@ -1,0 +1,28 @@
+@media only screen and (max-width: 991px) {
+    .all {
+        padding: 40px;
+        background: url('../img/bg2.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .header {
+        padding: 15px 40px;
+    }
+
+    .contect h1 {
+        font-size: 2.5em;
+    }
+
+    .contect p {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .header {
+        flex-direction: column;
+    }
+    
+}
